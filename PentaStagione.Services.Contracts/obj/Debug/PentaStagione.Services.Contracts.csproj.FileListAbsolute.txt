@@ -1,0 +1,5 @@
+C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Services.Contracts\bin\Debug\PentaStagione.Services.Contracts.dll
+C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Services.Contracts\bin\Debug\PentaStagione.Services.Contracts.pdb
+C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Services.Contracts\obj\Debug\PentaStagione.Services.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Services.Contracts\obj\Debug\PentaStagione.Services.Contracts.dll
+C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Services.Contracts\obj\Debug\PentaStagione.Services.Contracts.pdb
