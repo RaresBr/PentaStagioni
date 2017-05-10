@@ -43,5 +43,11 @@
     <Compile Include="IPizzaService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PentaStagione.Repository.Contracts\PentaStagione.Repository.Contracts.csproj">
+      <Project>{A12CAED0-C4BD-44B3-8419-CBE11E16A112}</Project>
+      <Name>PentaStagione.Repository.Contracts</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

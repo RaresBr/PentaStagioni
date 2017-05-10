@@ -1,0 +1,12 @@
+C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Domain\bin\Release\PentaStagione.Domain.dll.config
+C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Domain\bin\Release\PentaStagione.Domain.dll
+C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Domain\bin\Release\PentaStagione.Domain.pdb
+C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Domain\bin\Release\EntityFramework.dll
+C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Domain\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Domain\bin\Release\PentaStagione.Infrastructure.dll
+C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Domain\bin\Release\PentaStagione.Infrastructure.pdb
+C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Domain\bin\Release\EntityFramework.xml
+C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Domain\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Domain\obj\Release\PentaStagione.Domain.csprojResolveAssemblyReference.cache
+C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Domain\obj\Release\PentaStagione.Domain.dll
+C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Domain\obj\Release\PentaStagione.Domain.pdb

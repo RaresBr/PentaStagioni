@@ -1,0 +1,4 @@
+C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Infrastructure\bin\Release\PentaStagione.Infrastructure.dll
+C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Infrastructure\bin\Release\PentaStagione.Infrastructure.pdb
+C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Infrastructure\obj\Release\PentaStagione.Infrastructure.dll
+C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Infrastructure\obj\Release\PentaStagione.Infrastructure.pdb

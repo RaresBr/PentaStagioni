@@ -49,14 +49,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Pizza.cs" />
+    <Compile Include="Pizza.cs" />
+    <Compile Include="PizzaIngredient.cs" />
     <Compile Include="Repository\PizzaContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\IPizzaRepository.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PentaStagione.Infrastructure\PentaStagione.Infrastructure.csproj">
+      <Project>{07215a29-a812-4a26-8154-12dbaf424077}</Project>
+      <Name>PentaStagione.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

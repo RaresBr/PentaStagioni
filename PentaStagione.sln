@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26403.3
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PentaStagione.WebApi", "PentaStagione.WebApi\PentaStagione.WebApi.csproj", "{65CD5D69-578D-423F-88EB-634B6D5B3B14}"
 EndProject
@@ -11,9 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PentaStagione.Repository.Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PentaStagione.Domain", "PentaStagione.Domain\PentaStagione.Domain.csproj", "{7BB3FC1C-1C72-480A-9346-4D15610166F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PentaStagione.Repository.SqlServer", "PentaStagione.Repository\PentaStagione.Repository.SqlServer.csproj", "{2F0F008B-677F-43B7-8BAF-09558B8B9E79}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PentaStagione.Repository", "PentaStagione.Repository\PentaStagione.Repository.csproj", "{2F0F008B-677F-43B7-8BAF-09558B8B9E79}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PentaStagione.Services", "PentaStagione.Services\PentaStagione.Services.csproj", "{86F89F11-3E6A-45A3-8944-A6FF4A5B7450}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PentaStagione.Infrastructure", "PentaStagione.Infrastructure\PentaStagione.Infrastructure.csproj", "{07215A29-A812-4A26-8154-12DBAF424077}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{86F89F11-3E6A-45A3-8944-A6FF4A5B7450}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86F89F11-3E6A-45A3-8944-A6FF4A5B7450}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86F89F11-3E6A-45A3-8944-A6FF4A5B7450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07215A29-A812-4A26-8154-12DBAF424077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07215A29-A812-4A26-8154-12DBAF424077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07215A29-A812-4A26-8154-12DBAF424077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07215A29-A812-4A26-8154-12DBAF424077}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

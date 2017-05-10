@@ -1,0 +1,5 @@
+C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Infrastructure\bin\Debug\PentaStagione.Infrastructure.dll
+C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Infrastructure\bin\Debug\PentaStagione.Infrastructure.pdb
+C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Infrastructure\obj\Debug\PentaStagione.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Infrastructure\obj\Debug\PentaStagione.Infrastructure.dll
+C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Infrastructure\obj\Debug\PentaStagione.Infrastructure.pdb

@@ -3,6 +3,8 @@ using PentaStagione.Domain.Repository;
 using PentaStagione.Services.Contracts;
 using PentaStagione.Repository.Contracts;
 using PentaStagione.Repository.Contracts.ReadModel;
+using System;
+using System.Collections.Generic;
 
 namespace PetnaStagione.Services
 {
@@ -11,20 +13,28 @@ namespace PetnaStagione.Services
         private IPizzaRepository _repository;
         private IPizzaReadRepository _readRepository;
 
-        public PizzaService(IPizzaRepository repository)
+        public PizzaService(IPizzaRepository repository, IPizzaReadRepository readRepository)
         {
             _repository = repository;
+            _readRepository = readRepository;
         }
 
-        public void Save(object pizzaDto)
+        public void Save(PizzaDto pizzaDto)
         {
-            Pizza pizzaAggregate = null; // = map from pizza dto
+           
+            Pizza pizzaAggregate = new Pizza(); 
+            pizzaAggregate.Name = pizzaDto.Name;
+            pizzaAggregate.Id = "id" + DateTime.Now;
             _repository.Save(pizzaAggregate);
         }
 
-        public object GetById(int pizzaId)
+        public PizzaDto GetById(string pizzaId)
         {
             return _readRepository.GetById(pizzaId);
         }
+        public List<PizzaDto> GetAll() {
+            return _readRepository.GetPizzas();
+        }
+
     }
 }

@@ -1,4 +1,5 @@
-﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
@@ -81,6 +82,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -93,6 +100,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.1.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -102,11 +111,28 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="View\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\PentaStagione.Domain\PentaStagione.Domain.csproj">
+      <Project>{7BB3FC1C-1C72-480A-9346-4D15610166F1}</Project>
+      <Name>PentaStagione.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PentaStagione.Repository.Contracts\PentaStagione.Repository.Contracts.csproj">
+      <Project>{A12CAED0-C4BD-44B3-8419-CBE11E16A112}</Project>
+      <Name>PentaStagione.Repository.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PentaStagione.Repository\PentaStagione.Repository.csproj">
+      <Project>{2F0F008B-677F-43B7-8BAF-09558B8B9E79}</Project>
+      <Name>PentaStagione.Repository</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PentaStagione.Services.Contracts\PentaStagione.Services.Contracts.csproj">
       <Project>{2540e6d6-1999-4876-b7f9-2c03d7314b53}</Project>
       <Name>PentaStagione.Services.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PentaStagione.Services\PentaStagione.Services.csproj">
+      <Project>{86F89F11-3E6A-45A3-8944-A6FF4A5B7450}</Project>
+      <Name>PentaStagione.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
