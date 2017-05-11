@@ -19,9 +19,18 @@ namespace PentaStagione.Repository {
             connection.Execute(@"INSERT PIZZAS([NAME],[ID]) values (@NAME, @ID)",
                 new { NAME = pizzaAggregate.Name, ID = pizzaAggregate.Id });
 
+            foreach (var item in pizzaAggregate.Ingredients) {
+                connection.Execute(@"INSERT PIZZA_HAS_INGREDIENTS([ID],[PIZZA_ID]) values (@ID, @PIZZAID)",
+                new { ID = item.Id, PIZZAID = pizzaAggregate.Id });
+            }
+            
         }
         public PizzaRepository() {
             connection = new SqlConnection(ConfigurationManager.ConnectionStrings["PizzaConnection"].ConnectionString);
+        }
+        public void SaveIngredient(PizzaIngredient pizzaIngredient) {
+            connection.Execute(@"INSERT INGREDIENTS([NAME],[ID]) values (@NAME, @ID)",
+                new { NAME = pizzaIngredient.Name, ID = pizzaIngredient.Id });
         }
     }
 }

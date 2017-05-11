@@ -41,7 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ReadModel\IPizzaReadRepository.cs" />
-    <Compile Include="ReadModel\PizzaDto.cs" />
+    <Compile Include="IPizzaRepository.cs" />
+    <Compile Include="PizzaDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

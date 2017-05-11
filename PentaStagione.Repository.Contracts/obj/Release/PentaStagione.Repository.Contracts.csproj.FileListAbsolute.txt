@@ -2,10 +2,8 @@ C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Repository.Contracts
 C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Repository.Contracts\bin\Release\PentaStagione.Repository.Contracts.pdb
 C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Repository.Contracts\bin\Release\PentaStagione.Domain.dll
 C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Repository.Contracts\bin\Release\PentaStagione.Infrastructure.dll
-C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Repository.Contracts\bin\Release\EntityFramework.dll
 C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Repository.Contracts\bin\Release\PentaStagione.Domain.pdb
 C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Repository.Contracts\bin\Release\PentaStagione.Infrastructure.pdb
-C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Repository.Contracts\bin\Release\EntityFramework.xml
 C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Repository.Contracts\obj\Release\PentaStagione.Repository.Contracts.csprojResolveAssemblyReference.cache
 C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Repository.Contracts\obj\Release\PentaStagione.Repository.Contracts.dll
 C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.Repository.Contracts\obj\Release\PentaStagione.Repository.Contracts.pdb

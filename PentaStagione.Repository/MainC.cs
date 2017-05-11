@@ -18,7 +18,7 @@ namespace PentaStagione.Repository {
     public class MainC {
         static int Main(string[] args) {
             var readRepo = new PizzaReadRepository();
-            PizzaDto pizzaDto = readRepo.GetById("id1");
+            PizzaDto pizzaDto = readRepo.GetById("id12");
             //Console.WriteLine(pizzaDto.Name);
 
             List<PizzaDto> allPizzas = readRepo.GetPizzas();
@@ -27,13 +27,22 @@ namespace PentaStagione.Repository {
 
             }
             var writeRepo = new PizzaRepository();
-            Pizza pizza = new Pizza();
-            pizza.Name = "pizza4";
-            pizza.Id = "id4";
+            
+            
             //writeRepo.Save(pizza);
             PizzaService service = new PizzaService(writeRepo, readRepo);
             service.Save(pizzaDto);
-            Console.WriteLine(service.GetById("id1").Name);
+            Console.WriteLine(service.GetById("id12").Name);
+
+
+            var pingredient = new PizzaIngredient("meat");
+            service.SaveIngredient(pingredient);
+
+            Pizza pizza = new Pizza();
+            pizza.Name = "fullPizza";
+            pizza.AddIngredient(pingredient);
+
+            writeRepo.Save(pizza);
             return 0;
         }
     }

@@ -46,10 +46,8 @@ C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.WebApi\obj\Release\P
 C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.WebApi\obj\Release\PentaStagione.WebApi.pdb
 C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.WebApi\bin\PentaStagione.Domain.dll
 C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.WebApi\bin\PentaStagione.Infrastructure.dll
-C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.WebApi\bin\EntityFramework.dll
 C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.WebApi\bin\PentaStagione.Domain.pdb
 C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.WebApi\bin\PentaStagione.Infrastructure.pdb
-C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.WebApi\bin\EntityFramework.xml
 C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.WebApi\bin\PentaStagione.Repository.exe
 C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.WebApi\bin\PentaStagione.Services.dll
 C:\Users\rares\Desktop\Pentalog\PentaStagione\PentaStagione.WebApi\bin\Dapper.dll

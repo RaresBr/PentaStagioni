@@ -24,8 +24,11 @@ namespace PetnaStagione.Services
            
             Pizza pizzaAggregate = new Pizza(); 
             pizzaAggregate.Name = pizzaDto.Name;
-            pizzaAggregate.Id = "id" + DateTime.Now;
+            
             _repository.Save(pizzaAggregate);
+        }
+        public void SaveIngredient(PizzaIngredient pizzaIngredient) {
+            _repository.SaveIngredient(pizzaIngredient);
         }
 
         public PizzaDto GetById(string pizzaId)
